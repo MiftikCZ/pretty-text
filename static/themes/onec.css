@@ -1,0 +1,10 @@
+@import url("./colr.css");
+
+:root {
+    --bg: hsl(240, 38%, 50%);
+}
+
+main {
+    box-shadow: #2220 0 8px 12px;
+    background: rgba(255, 255, 255, 0.647);
+}

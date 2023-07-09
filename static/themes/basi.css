@@ -1,0 +1,26 @@
+:root {
+    font-size: 20px;
+}
+
+body {
+    font-size: 20px;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    padding: 0.25em;
+    background: #0f0f12;
+    color: rgb(229, 231, 232);
+}
+
+main {
+    border-left: mediumseagreen 5px solid;
+    padding: 0.5em;
+    width: 100%;
+    text-align: start;
+    justify-content: start;
+    align-items: start;
+    max-width: 700px;
+    font-size: 1.5em;
+}

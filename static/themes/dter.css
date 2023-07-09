@@ -1,0 +1,7 @@
+@import url("./term.css");
+
+main {
+    
+    background: rgba(20, 20, 21, 0.29) !important;
+    border: rgba(0, 0, 0, 0.133) 2px solid !important;
+}

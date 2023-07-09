@@ -1,0 +1,56 @@
+:root {
+    font-size: 20px;
+}
+
+body {
+    font-size: 20px;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    padding: 0.25em;
+    background: #212027;
+    color: aliceblue;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    width: 100%;
+    color: #e3e3ea;
+    font-family: "iosevka",monospace !important;
+    padding: 0.75em;
+    background: #cbd2e91d;
+    border: rgba(23, 23, 23, 0.407) 2px solid;
+    border-radius: 4px;
+    text-align: start;
+    max-width: 700px;
+}
+
+.selects {
+    display: flex;
+    flex-direction: row;
+    gap: 0.25em;
+}
+
+.selects div {
+    --s: 70%;
+    --l: 55%;
+    border-radius: 50%;
+    height: 0.9em;
+    aspect-ratio: 1 / 1;
+}
+
+.selects div:nth-child(1) {
+    background: hsl(0, var(--s), var(--l));
+}
+
+.selects div:nth-child(2) {
+    background: hsl(55, var(--s), var(--l));
+}
+
+.selects div:nth-child(3) {
+    background: hsl(120, var(--s), var(--l));
+}

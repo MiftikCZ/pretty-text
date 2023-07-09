@@ -1,0 +1,5 @@
+@import url("./colr.css");
+
+:root {
+    --bg: linear-gradient(45deg, rgb(179, 78, 60), rgb(179, 104, 60));
+}
